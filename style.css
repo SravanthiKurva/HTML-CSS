@@ -1,0 +1,42 @@
+section{
+    color: blue;}
+.career{
+    font-size: 1.2rem;
+    margin-top: 10%;
+    font-family: Arial;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.react{
+    color: rgb(52, 57, 57);
+    font-family: Arial;
+    color: blueviolet;
+    font-size: 0.9rem;
+    font-weight: 700;
+  
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+.loading-animation{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 5px solid rgba(189,189,189 ,0.25); 
+    border-left-color: rgba(3,155,229 ,1); 
+     border-top-color: rgba(3,155,229 ,1);
+    border-radius: 50%; 
+    animation: rotate 1600ms infinite linear; }
+
+
+@keyframes rotate {
+    to {
+      transform: rotate(1turn)
+    }
+    
+  }
+
